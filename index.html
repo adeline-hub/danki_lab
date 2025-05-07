@@ -3,73 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danki Lab</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>.danki Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="logo">
-            <h1>Danki Lab</h1>
+        <div class="container">
+            <div class="logo">
+                <a href="#">.danki Lab</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Creative Solutions for Bold Ideas</h2>
-            <p>We craft visually stunning and functional designs for forward-thinking brands.</p>
-            <a href="#work" class="cta-button">See Our Work</a>
-        </div>
-    </section>
-
-    <!-- Work/Projects Section -->
-    <section class="work" id="work">
-        <h2>Our Projects</h2>
-        <div class="project-grid">
-            <div class="project-item">
-                <img src="https://via.placeholder.com/600x400" alt="Project 1">
-                <h3>Project One</h3>
-                <p>A brief description of the project.</p>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>We design & build digital experiences that matter.</h1>
+                <p>Innovative solutions for forward-thinking brands.</p>
+                <a href="#work" class="cta-button">View Our Work</a>
             </div>
-            <div class="project-item">
-                <img src="https://via.placeholder.com/600x400" alt="Project 2">
-                <h3>Project Two</h3>
-                <p>A brief description of the project.</p>
+        </section>
+
+        <section id="work" class="work-section">
+            <div class="container">
+                <h2>Selected Work</h2>
+                <div class="project-grid">
+                    <div class="project-item">
+                        <img src="https://via.placeholder.com/600x400/EEE/333?text=Project+Alpha" alt="Project Alpha">
+                        <div class="project-info">
+                            <h3>Project Alpha</h3>
+                            <p>Brand Identity, Web Design</p>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="https://via.placeholder.com/600x400/DDD/333?text=Project+Beta" alt="Project Beta">
+                        <div class="project-info">
+                            <h3>Project Beta</h3>
+                            <p>UX/UI Design, Mobile App</p>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="https://via.placeholder.com/600x400/CCC/333?text=Project+Gamma" alt="Project Gamma">
+                        <div class="project-info">
+                            <h3>Project Gamma</h3>
+                            <p>Web Development, E-commerce</p>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="https://via.placeholder.com/600x400/BBB/333?text=Project+Delta" alt="Project Delta">
+                        <div class="project-info">
+                            <h3>Project Delta</h3>
+                            <p>Interactive Installation</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="project-item">
-                <img src="https://via.placeholder.com/600x400" alt="Project 3">
-                <h3>Project Three</h3>
-                <p>A brief description of the project.</p>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About .danki Lab</h2>
+                <p>We are a passionate team of designers, developers, and strategists dedicated to crafting exceptional digital products. At .danki Lab, we believe in the power of thoughtful design and robust technology to solve complex problems and create meaningful connections. Our approach is collaborative, transparent, and always focused on delivering value to our clients.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h2>About Danki Lab</h2>
-        <p>We are a creative studio dedicated to innovative design and storytelling through visual media. Based on passion and precision, we bring ideas to life.</p>
-    </section>
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Let's Talk</h2>
+                <p>Have a project in mind? We'd love to hear about it.</p>
+                <a href="mailto:hello@dankilab.com" class="email-link">hello@dankilab.com</a>
+            </div>
+        </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2>Get in Touch</h2>
-        <p>Email: hello@dankilab.com</p>
-        <p>Phone: (123) 456-7890</p>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Danki Lab. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2023 .danki Lab. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
